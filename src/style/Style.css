@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+    color: white;
+}
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}

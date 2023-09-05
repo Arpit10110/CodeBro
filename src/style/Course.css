@@ -1,0 +1,52 @@
+.course{
+    height: 63vh;
+}
+.courseHead{
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #ff00a8;
+}
+.courseCont{
+    font-size: 1.3rem;
+    margin: auto;
+    letter-spacing: 0.1rem;
+    width: 62vw;
+    color: #b9f6ff;
+    text-align: center;
+}
+.courseVideo{
+    margin: auto;
+    display: flex;
+    width: 27vw;
+    height: 36vh;
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 400px) {
+    .course {
+        height: 82.5vh;
+    }
+    .courseHead {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        color: #ff00a8;
+    }
+    .courseCont {
+        font-size: 1.2rem;
+        margin: auto;
+        letter-spacing: 0.1rem;
+        width: 93vw;
+        line-break: anywhere;
+        color: #b9f6ff;
+        text-align: center;
+    }
+    .courseVideo {
+        margin: auto;
+        display: flex;
+        width: 81vw;
+        height: 30vh;
+        margin-top: 1rem;
+    }
+}
